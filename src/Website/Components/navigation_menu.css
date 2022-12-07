@@ -1,0 +1,196 @@
+.navbar {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #000000;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+
+  
+  .nav-container {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    max-width: 1500px;
+  }
+  
+  .nav-logo {
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    flex-grow: 1;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-right: 2rem;
+  }
+  
+  .nav-links {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+  }
+  .nav-links:hover {
+    color:#FC5C04
+  }
+  .fa-code {
+    margin-left: 1rem;
+  }
+  
+  .nav-item {
+    line-height: 40px;
+    margin-right: 1rem;
+  }
+  
+  .nav-item:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+  }
+  
+  .nav-item:hover:after {
+    width: 100%;
+    background: #FC5C04;
+  }
+  
+  .nav-item .active {
+    color: #FC5C04;
+    border-bottom: 2px solid #FC5C04;
+  }
+  
+  .nav-icon {
+    display: none;
+  }
+  .Main-Logo{
+      width:140px;
+      margin-top: -40px;
+  }
+  .navbtn{
+    text-decoration: none;
+    color: white!important;
+  }
+  .navbtn:hover{
+    text-decoration: none;
+    color: #FC5C04;
+  }
+  .nav-btn:hover .navbtn{
+    color: #FC5C04!important;
+  }
+  .nav-btn{
+      padding: 5px 25px 5px 25px;
+      background-color: #FC5C04 ;
+      border-radius: 3px;
+      color: white;
+      border: 1px solid #FC5C04;
+   
+  }
+  .nav-btn:hover{
+    background-color: white ;
+    color: #FC5C04;
+    border: 1px solid #ffffff;
+  }
+  .nav-btn-light{
+    padding: 5px 25px 5px 25px;
+    background-color: #ffffff ;
+    border-radius: 3px;
+    /* border: 1px solid #ffffff; */
+    margin-right: 5px;
+  }
+  .nav-btn-light-link{
+    color: #FC5C04;
+    text-decoration: none;
+    background-color: #ffffff;
+  }
+  .nav-btn-light-link:hover {
+    color:#FC5C04;
+  }
+
+
+.mobile_link{
+  display: none;
+}
+.mobile_btn{
+  display: block;
+}
+
+
+
+  @media screen and (max-width: 1150px) {
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-top: 1px solid rgb(142, 139, 139);
+      position: absolute;
+      top: 80px;
+      left: -150%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background: #000000;
+      left: 0px;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+    .nav-item .active {
+      color: #FC5C04;
+      border: none;
+    }
+    .mobile_link{
+      display: block;
+    }
+    .mobile_btn{
+      display: none;
+    }
+    
+    .nav-links {
+      padding: 1.5rem;
+      width: auto;
+      display: table;
+    }
+
+    .nav-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+      color: #FC5C04;
+    }
+    .Main-Logo{
+        width:140px;
+    }
+    .navbtn, .nav-btn{
+      background-color: transparent;
+      border: none;
+      color:White!important;
+      margin-left:-5px;
+      padding: 30px 0px 25px 15px;
+      text-align: left;
+    }
+  
+  }
+ 

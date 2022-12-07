@@ -1,0 +1,96 @@
+.FeaturesCardContainer{
+    padding: 50px 50px;
+}
+.FeaturesCardContainer h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    padding: 0px 20px 20px 20px;
+}
+.Showcase{
+    background-color: #000000;
+    padding: 50px 20px;
+}
+.Showcase h3{
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    line-height: 1.4;
+    font-weight: 600;
+}
+.PlatformShowcase img{
+    width: 100%;
+}
+.ExtededFeature{
+    padding: 100px 200px;
+    color: rgb(0, 0, 0);
+}
+.ExtededFeature h4{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+.ExtededFeature hr{
+    width: 30%;
+    border: 2px solid #FC5C04;
+}
+.ExtededFeature p{
+    font-size: 14px;
+    line-height: 1.8;
+    color:#000000;
+}
+.ContentCol{
+    padding: 50px 30px;
+    border-radius:10px;
+}
+.ContentCol div{
+    padding: 20px;
+}
+.ExtededFeature img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1100px) {
+    .FeaturesCardContainer{
+        padding: 50px 0px;
+    }
+    .ExtededFeature{
+        padding: 50px 100px;
+        color: rgb(0, 0, 0);
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .FeaturesCardContainer{
+        padding: 40px 0px;
+    }
+    .FeaturesCardContainer h2{
+        font-size: 24px;
+    } 
+    .Showcase h3{
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .ExtededFeature{
+        padding: 10px 20px;
+        color: rgb(0, 0, 0);
+    }
+    .ContentCol{
+        padding: 30px 10px;
+        border-radius:10px;
+    }
+
+
+}

@@ -1,0 +1,49 @@
+.rec-carousel .eWjCzc, .eWjCzc{
+    background-color: rgba(240, 248, 255, 0);
+    border: 0px solid rgba(0, 0, 0, 0)!important;
+}
+.eAyARa:disabled {
+    background-color: rgba(128, 128, 128, 0.085);
+}
+
+.eWjCzc:hover:enabled{
+    background-color: #FC5C04!important;    
+}
+.rec-pagination{
+    display: none!important;
+}
+.SliderContainer{
+    padding: 20px;
+    background-color: #F5F5F8;
+    border: 10px solid #FFFFFF;
+}
+.SlideStockCard{
+    background-color: #FFFFFF;
+    padding: 10px 10px 0px 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+}
+.SlideStockCard .StockLogo{
+    /* width: 50px; */
+    height: 50px;
+}
+
+.SlideStockCard .price{
+    font-size: 14px;
+    float: right;
+}
+.SlideStockCard .rate{
+    font-size: 14px;
+    float: right;
+    line-height: 0;
+}
+.rec-item-wrapper .SlideStockCard {
+    width: 200px!important;
+}
+
+
+@media screen and (max-width:1000px) {
+    /* .rec-item-wrapper .SlideStockCard {
+        width: 100px!important;
+    } */
+}

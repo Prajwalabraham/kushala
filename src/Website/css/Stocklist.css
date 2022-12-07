@@ -1,0 +1,131 @@
+.StockHeroSection{
+    padding: 80px ;
+    background-color: black;
+}
+.StockHeroSection h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.6;
+}
+.StockHeroSection p{
+    font-size: 16px;
+    color: #ffffff;
+}
+.BtnGrp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-lite, .button-dark{
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.button-lite{
+    border:1px solid  #FC5C04;
+    background-color: #ffffff;
+    color:#FC5C04;
+}
+.button-dark{
+    background-color: #FC5C04;
+    color:white
+}
+.StocksCardListing{
+    padding: 50px 0px 20px 0px;
+}
+.StocksCardListing h4{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.StocksCardListing a{
+    text-decoration: none;
+    color:#FC5C04
+}
+.StockSearchCategories{
+    padding: 50px 0px 100px 0px;
+}
+.StockSearchCategories h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.4;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.CatCard{
+    display: flex;
+    padding:20px 0px;
+}
+.textContainer{
+    padding: 5px 0px 0px 10px!important;
+}
+.textContainer p{
+    color: #FC5C04;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.textContainer h5{
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    line-height: 1.2
+}
+.StockSearchCategories h4{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.StockSearchCategories p{
+    line-height: 1.8;
+}
+
+
+
+@media screen and (max-width:800px) {
+    .StockHeroSection{
+        padding:80px 20px;
+    }
+    .StockHeroSection h2{
+        line-height: 1.4;
+    }
+    .StockHeroSection p{
+        font-size: 14px;
+    }
+    .button-lite, .button-dark{
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    .StockSearchCategories h4{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+    .StockSearchCategories p{
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .sideCTA{
+        margin-top: 50px;
+    }
+    .StockSearchCategories{
+        padding: 20px 0px 70px 0px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .textContainer h5{
+        font-size: 12px;
+    }
+    .textContainer p{
+        font-size: 12px;
+        line-height: 1;
+    }
+    .CatCard img{
+        width: 50px;
+    }
+    .textContainer{
+        padding: 5px 0px 0px 10px!important;
+    }
+}

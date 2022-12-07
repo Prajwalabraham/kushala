@@ -1,0 +1,78 @@
+.StockSearchSection{
+    background-color: #000000;
+    padding: 50px 0px;
+}
+.BackWithTitle{
+    display: flex;
+}
+.BackWithTitle i{
+    font-size: 20px;
+    padding:05px 20px 0px 0px;
+    color: #FC5C04;
+    line-height: 1.8;
+
+}
+.BackWithTitle h3{
+    font-size: 20px;    
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    line-height: 1.8;
+    color: #ffffff;
+
+}
+.CategorySortDropdown select{
+    width: 50%;
+    float: right;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+.HeaderContent{
+    padding-top: 10px;
+}
+.HeaderContent h4{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+}
+.HeaderContent p{
+    font-size: 20px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.StockTable th{
+    color:#8B8E8E;
+    font-weight: 500;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.8;
+    border-bottom: 1px solid #8B8E8E;
+
+
+}
+.StockTable td{
+    color:white;
+    line-height: 3;
+    border-bottom: 1px solid #8B8E8E;
+}
+.StockIcon img{
+    width: 60px;
+    border: 1px solid #8B8E8E;
+    border-radius: 50%;
+}
+.linkIcon{
+    color: #FC5C04;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:800px) {
+    .CategorySortDropdown select{
+        width:100%;
+    }
+    .StockTable td{
+        font-size: 14px;
+        line-height: 1.6;
+    
+    
+    }
+}

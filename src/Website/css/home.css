@@ -1,0 +1,379 @@
+/* Home page */
+.Main_features{
+    padding: 70px 60px;
+}
+.features-heading{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FC5C04;
+}
+.Main_features_row{
+    padding: 0px 80px;
+}
+.Main_features_row h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.Main_features_row p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+.Main_features_row .col{
+    padding: 0px 20px 0px 50px;
+}
+.hr-fe{
+    position: relative;
+    border: none;
+    height: 2px;
+    background: black!important;
+    margin-bottom: 20px;
+    opacity: 1;
+    width: 60%;
+}
+.EllipseCircle1{
+    z-index: 1;
+    position: absolute;
+    top: 790px;
+    left: 450px;
+    width: 100px;
+    z-index: -1;
+}
+.SubFeatures{
+    background-color: #000000;
+    padding:50px;
+    color: white;
+}
+.SubfeatureCard img{
+    width: 50px;
+}
+.SubFeatures h4{
+    color:#FC5C04;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.SubFeatures h2{
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.6;
+    font-size: 30px;
+    font-weight: 600;
+}
+.SubFeatures p{
+    line-height: 1.8;
+    font-size: 14px;
+    color: #D2CFD2;
+}
+.SubfeatureCard{
+    padding: 20px 0px;
+}
+.SubfeatureCard h5{
+    font-size: 16px;
+    padding: 15px;
+}
+.WebMokupimg img{
+    padding: 0px 70px;
+ width: 100%;
+}
+.Feature_content{
+    padding: 50px 0px;
+}
+.Expandedfeature1, .Expandedfeature2{
+    padding: 80px 80px;
+}
+.Expandedfeature1 h4{
+    color:#FC5C04;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.4;
+    font-size: 28px;
+    font-weight: 600;
+}
+.Expandedfeature1 p{
+    font-size: 14px;
+    color:#8B8E8E;
+    line-height: 1.6;
+}
+.Expandedfeature1 a{
+    font-size: 14px;
+    text-decoration: none;
+    color:#FC5C04;
+}
+.Expandedfeature1 .Feature1IMG{
+    width: 100%;
+}
+.Expandedfeature2 h4{
+    color:#FC5C04;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.4;
+    font-size: 28px;
+    font-weight: 600;
+}
+.Expandedfeature2 p{
+    font-size: 14px;
+    color:#8B8E8E;
+    line-height: 1.6;
+}
+.Expandedfeature2 a{
+    font-size: 14px;
+    text-decoration: none;
+    color:#FC5C04;
+}
+.Expandedfeature2 .Feature1IMG{
+    width: 100%;
+}
+.CardSection{
+    padding: 50px 0px;
+    width: 70%;
+}
+.CardSection h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #FC5C04;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.CardItem{
+    background-color:whitesmoke;
+    color:gray;
+    padding: 20px;
+    margin:40px 20px;
+    border-radius: 10px;
+}
+.CardItem img{
+    width: 100px;
+    padding: 10px;
+}
+.CardItem h5{
+    color: #000000;
+    line-height: 1.6;
+    font-weight: 600;
+    font-size: 20px;
+}
+.CardItem p{
+    line-height: 1.6;
+    font-size: 14px;
+}
+.ExploreCTA{
+    background-color: #000000;
+    padding: 50px 200px;
+}
+.ExploreCTA_Title h4{
+    font-family: 'Titillium Web', sans-serif;
+    padding-bottom: 20px;
+    font-weight: 600;
+    color: white;
+}
+.ExploreCTACard h5{
+    padding: 22px 10px;
+    font-size: 20px;
+    font-weight: 600
+}
+.ExploreCTACard{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.AppDownloadSection{
+    padding: 100px 70px;
+}
+.AppDownloadSection h6{
+   font-size: 18px;
+   font-family: 'Titillium Web', sans-serif;
+   color: #FC5C04;
+   font-weight: 600;
+   line-height: 1.4;
+}
+.AppDownloadSection h3{
+    font-size: 28px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+ }
+ .AppDownloadSection p{
+    padding-right: 50px;
+    font-size: 14px;
+    line-height: 1.8;
+    color:#8B8E9D
+ }
+.BtnGroup{
+    display: flex;
+}
+.BtnGroup img{
+    padding: 5px 15px 0px 0px;
+    width:180px;
+}
+.LottieAnimate {
+   margin: -100px 0px -100px 0px;
+}
+.LottieAnimate img{
+    width: 90%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+
+    /* Home page */
+    .Main_features_row{
+        padding: 0px 0px;
+    }
+    .Main_features_row .col-sm-4{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .Main_features_row .col-sm-4 hr{
+    width: 100%;
+    padding: 0px 50px!important;
+        
+    }
+    .features-heading{
+        text-align: center;
+        font-weight: 600;
+        font-size: 22px;
+
+    }
+    .EllipseCircle1{
+        z-index: 1;
+        position: absolute;
+        top: 630px;
+        left:20px;
+        width: 80px;
+        z-index: -1;
+    }
+    .Main_features{
+        padding: 50px 40px;
+    }
+    .WebMokupimg img{
+        padding: 0px 10px;
+    }
+    .CardSection{
+        width: 100%;
+    }
+    .CardItem{
+        margin:30px 10px;
+    }
+    .ExploreCTA img{
+        width: 50px;
+        }
+    .ExploreCTA{
+        background-color: #000000;
+        padding: 40px 20px;
+    }
+    .AppDownloadSection{
+        padding: 50px 50px;
+    }
+    .LottieAnimate {
+        width: 100%;
+        margin: 0px 0px -50px 0px ;
+     }
+    }
+
+    @media screen and (max-width:800px) {
+    
+        /* Home page */
+        .SubFeatures{
+            padding:20px;
+            color: white;
+        }
+        .SubFeatures h4{
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .SubFeatures h2{
+            font-family: 'Titillium Web', sans-serif;
+            line-height: 1.4;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .SubfeatureCard {
+            padding: 5px 0px;
+        }
+        .SubFeatures p{
+            line-height: 1.6;
+            font-size: 14px;
+            color: #D2CFD2;
+        }
+        .SubfeatureCard h5{
+            font-size: 16px;
+            padding: 20px;
+        }
+        .Feature_content{
+            padding: 0px 0px;
+        }
+        .Expandedfeature1, .Expandedfeature2{
+            padding: 30px 40px;
+        }
+        .Expandedfeature1 h4{
+            font-size: 24px;
+            padding-top: 10px;
+        }
+        .Expandedfeature2 h4{
+            font-size: 24px;
+        }
+        .Expandedfeature2 img{
+            padding-top: 40px;
+        }
+        .WebMokupimg img{
+            padding: 0px 0px;
+        }
+        .CardItem{
+            margin:10px 20px;
+        }
+        .CardItem h5{
+            font-size: 18px;
+        }
+        .CardSection h3{
+            font-size: 26px;
+        }
+        .ExploreCTA_Title h4{
+            padding-bottom: 5px;
+            font-size: 18px;
+        }
+        .ExploreCTA h5{
+            font-size: 16px;
+            padding: 17px 10px;
+        }
+
+        .ExploreCTA img{
+        width: 60px;
+        }
+        .ExploreCTA .ExploreCTACard{
+            margin-bottom: 10px;
+        }
+        .AppDownloadSection{
+            padding: 50px 30px;
+        }
+        .AppDownloadSection h6{
+            font-size: 16px;
+            line-height: 1.4;
+        }
+        .AppDownloadSection h3{
+            font-size: 22px;
+            line-height: 1.4;
+        }
+        .AppDownloadSection p{
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .LottieAnimate {
+            margin: 0px 0px 0px 0px;
+         }
+         .LottieAnimate img{
+            width:100%;
+            margin-bottom: -50px;
+         }
+         .BtnGroup img{
+            width: 150px;
+         }  
+         
+        }

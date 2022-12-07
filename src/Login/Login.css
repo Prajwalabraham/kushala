@@ -1,0 +1,217 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: auto;
+    grid-auto-columns: auto;
+    height: 100vh;
+    width: 100%;
+    background-color: #333333;
+  }
+  .one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-color: #ffffff;
+  }
+  .two { 
+    grid-column: 2 / 2;
+    grid-row: 1;
+    background-color: #000000;
+  }
+  .LoginLogo{
+    padding:10px;
+  }
+  .LoginLogo img{
+    width: 150px;
+  }
+  .BackToHomeLink{
+    display: flex;
+  }
+  .BackToHomeLink i{
+    color: #fc5c04;
+    font-size: 18px;
+    line-height: 1;
+  }
+  .BackToHomeLink h3{
+    font-family: 'Titillium Web', sans-serif;
+    padding-left: 10px;
+    color:#000000;
+    font-size: 18px;
+    font-weight:600;
+  }
+  .BackToHomeLink a{
+    text-decoration: none;
+  }
+  .Login_FormContent{
+    padding: 15% 10%;
+  }
+  .btnGrp img{
+    width: 150px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .ContainerInner{
+    padding: 30% 50px;
+  }
+  .ContainerInner h5{
+    font-size: 16px;
+    color:#fc5c04;
+    line-height: 1.6;
+  }
+  .ContainerInner h2{
+    font-size: 28px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    color:#ffffff;
+    line-height: 1.6;
+  }
+  .ContainerInner p{
+    font-size: 14px;
+    color:#a9a9a9;
+    line-height: 1.8;
+  }
+  .Flex_Input{
+    display: flex;
+  }
+  .Flex_One{
+    width: 25%;
+  }
+  .Flex_Two{
+    width: 75%;
+  }
+  .Flex_One select{
+    padding: 10px 20px;
+    border-radius: 5px; 
+  }
+ 
+  .Flex_Two input{
+    padding: 10px 10px;
+    margin-left:10px;
+    border-radius: 5px; 
+    width:98%
+  }
+  .Flex_Two label{
+    margin-left:10px;
+  }
+  .Flex_One label, .Flex_Two label{
+    font-size: 14px;
+    color:#8B8E8E;
+  }
+  .ButtonNext{
+    padding: 10px 50px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #fc5c04;
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    border:none
+
+  }
+  .FormTitlestep1{
+    padding-top: 20px;
+    line-height: 1.8;
+    font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;
+
+  }
+  .warntxt{
+    line-height: 1.4;
+    font-size: 12px;
+    padding-top: 5px;
+    color: #808080;
+  }
+  .TermsCheck{
+    height: 15px;
+    width: 15px;
+  }
+  .Termstxt{
+    font-size: 15px;
+    color: #808080;
+  }
+  .Termstxt a{
+    color: #fc5c04;
+    text-decoration: none;
+  }
+  .OtpVerifyTitile h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 28px;
+    color:#000000;
+    font-weight:800;
+  }
+  .resendTxt{
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  .resendTxt span{
+    color: #fc5c04;
+    cursor: pointer;
+  }
+  .OtpInput{
+    padding: 10px 20px;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:800px) {
+    .wrapper {
+        display: block;
+    }
+    .LoginLogo img{
+        width: 130px;
+    }
+    .ContainerInner{
+        padding: 15% 20px;
+    }
+    .ContainerInner h5{
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      .ContainerInner h2{
+        font-size: 24px;
+        line-height: 1.4;
+      }
+    .btnGrp img{
+        width: 120px;
+        border: 1px solid #808080;
+        border-radius: 5px;
+        margin-right: 10px;
+      }
+      .Flex_One{
+        width: 30%;
+      }
+      .Flex_Two{
+        width: 70%;
+      }
+      
+  }
+
+
+  @media screen and (max-width:500px) {
+    .Flex_One select{
+      padding: 10px 5px;
+    }
+    .Flex_Two input{
+      margin-left:5px;
+    }
+    .Flex_Two label{
+      margin-left:5px;
+    }
+    .Termstxt{
+      font-size: 14px;
+    }
+    .TermsCheck{
+      height: 12px;
+      width: 12px;
+    }
+  }

@@ -1,0 +1,26 @@
+.SuccessCard{
+    margin: 5% 20%; 
+}
+.Successmessage{
+    font-size: 16px;
+}
+.RedirectText{
+    font-size: 12px;
+    line-height: 1.6;
+    padding-top: 5px;
+}
+.BtnDark{
+    width: 100%;
+    border-radius: 3px;
+    background-color: #FC5C04;
+    border: 1px solid #FC5C04;
+    padding: 10px 40px;
+}
+.BtnDark:hover{
+    width: 100%;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    border: 1px solid #FC5C04;
+    color:#FC5C04;
+    padding: 10px 40px;
+}

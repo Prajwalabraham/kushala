@@ -1,0 +1,78 @@
+.UserProfiletitle{
+     font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.profile-pic {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3135/3135715.png);
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    vertical-align: middle;
+    text-align: center;
+    color: transparent;
+    transition: all .3s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profile-pic:hover {
+    background-color: rgba(0,0,0,.5);
+    z-index: 10000;
+    color: #fff;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+
+.profile-pic span {
+    display: inline-block;
+    top:5;
+    padding-top: 25px;
+    
+}
+
+form input[type="file"] {
+          display: none;
+          cursor: pointer;
+ }
+ .buttonSave{
+    border-radius: 3px;
+    border: 1px solid #FC5C04;
+    background-color: #FC5C04;
+    margin-top: -5px;
+}
+.buttonSave:hover {
+    border: 1px solid #FC5C04;
+    background-color: #FFFFFF;
+    color:#FC5C04;
+}
+.Row1 input, .Row2 input, .Row3 input{
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.Row1 label, .Row2 label, .Row3 label{
+   font-size: 14px;
+   color:gray
+}
+.Row1, .Row2, .Row3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .Row1, .Row2, .Row3{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }   
+    .Row1 input, .Row2 input, .Row3 input{
+        margin-bottom: 10px;
+    } 
+    .buttonSave{
+        width: 100%;
+        padding: 12px ;
+    }
+}

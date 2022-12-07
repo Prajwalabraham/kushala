@@ -1,0 +1,40 @@
+.ChatSystemContainer{
+    padding: 20px 20px;
+}
+.StickSideBar{
+    overflow: scroll;
+    height: 80vh;  
+}
+.ChatBox{
+    padding: 10px 10px;
+    background-color: white;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    display: flex;
+}
+.UserProfile{
+    border-radius: 50%;
+}
+.UserProfile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.ChatBox .UserInfo{
+    padding: 0px 20px;
+}
+.ChatBox .UserName{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.ChatBox .RecentChats{
+    font-size: 14px;
+    line-height: 1.8;
+    width: 120px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

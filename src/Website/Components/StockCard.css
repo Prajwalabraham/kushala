@@ -1,0 +1,51 @@
+.StockCard{
+    height: 200px;
+}
+.StockCard .h5{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+}
+.StockImage{
+    width: 50px;
+    border-radius: 50%;
+}
+ .StatusUp{
+    font-size: 14px;
+    color: #33A34D;
+    line-height: 1.4
+}
+.StatusDown{
+    font-size: 14px;
+    color: #ff1212;
+    line-height: 1.4
+}
+
+@media screen and (max-width:800px) {
+  .StockCardROW{
+    padding: 0px 10px;
+  } 
+  .StockCard .h5{
+    font-size: 16px;
+
+}
+}
+
+@media screen and (max-width:580px) {
+    .StocksCardListing .ExploreLink{
+        margin-top: -34px;
+    }
+    .StockCard .h5{
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 600;
+    
+    }
+    .StockCard .card-text{
+        font-size: 14px;
+    
+    }
+  }

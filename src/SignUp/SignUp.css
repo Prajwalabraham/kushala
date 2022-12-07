@@ -1,0 +1,147 @@
+.RegistrationFormDiv{
+    padding: 5% 32%;
+}
+.RegistrationfrmLogo img{
+    width: 150px;
+    padding-bottom: 5px;
+}
+.RegistrationfrmLogo h3{
+    font-size: 26px;
+    font-weight: 800;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.4;
+}
+.RegistrationfrmLogo p{
+    font-size: 14px;
+}
+.FlexForm{
+    display: flex;
+    justify-content:space-between;
+}
+.item1, .item2{
+    padding-right: 10px;
+}
+.RegistrationFormDiv label{
+    font-size: 14px;
+    color:#808080;
+}
+.RegistrationFormDiv input{
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    color:#808080;
+}
+
+.RegistrationFormDiv select{
+    border-radius: 3px;
+    padding: 11px 20px;
+    margin-bottom: 15px;
+    color:#808080;
+    width: 100%!important;
+
+}
+
+.RegistrationFormDiv input:focus, .RegistrationFormDiv  select:focus {
+    background-color: #F5F5F5;
+    border: 1px solid #FC5C04;
+    box-shadow: none;
+}
+.RegFormBtn{
+    background-color: #FC5C04;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #FC5C04;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.RegFormBtn:hover{
+    background-color: #FFFFFF;
+    color: #FC5C04;
+    border: 1px solid #FC5C04;
+}
+.btnFlexgrp {
+    display: flex;
+    justify-content: space-evenly;
+}
+.btnFlexgrp div{
+    width:50%!important;
+}
+.btnFlexgrp .RegFormBtn1{
+    background-color: #F5F5F5;
+    border: 1px solid #FC5C04;
+    color: #FC5C04;
+    border-radius:3px;
+    width: 98%;
+    padding: 10px 0px;
+    margin: 0px 2% 0px 0px;
+}
+.btnFlexgrp .RegFormBtn2{
+    background-color: #FC5C04;
+    border: 1px solid #FC5C04;
+    color: #FFFFFF;
+    border-radius:3px;
+    width: 98%;
+    padding: 10px 0px;
+    margin: 0px 0px 0px 2%;
+}
+.FlexRadioGrp{
+    display: flex;
+}
+.InputGrp{
+    padding-right: 20px;
+}
+.InputGrp label{
+    padding-left: 5px;
+}
+.Tab_Container{
+    border:1px solid #cacaca;
+    padding: 2%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.RegFormBtn:disabled{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+.CheckboxTerms input[type=checkbox]{
+    width:15px; 
+    height:15px; 
+}
+.CheckboxTerms input[type=checkbox]:checked {
+    background-color: red;
+    border-color: red;
+    color: #fff;
+}
+.AccLInk a{
+    color: #FC5C04;
+    text-decoration: none;
+}
+.RegistrationFormDiv .IndiaForm select{
+    width: 100%
+}
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .FlexForm{
+        display: block
+    }
+    .item1, .item2{
+        padding-right: 0px;
+    }
+    .RegistrationFormDiv{
+        padding: 5% 20%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .RegistrationFormDiv{
+        padding: 5%;
+    }
+    .RegistrationfrmLogo h3{
+        font-size: 22px;
+    }
+}

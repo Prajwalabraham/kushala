@@ -1,0 +1,122 @@
+.DashLogo{
+    width: 120px;
+}
+.DashTopBar{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #f5f5f5;
+}
+.sidebar{
+    background-color: #000000;
+}
+.SideBarMenu{
+    padding: 0px 40px 0px 0px;
+}
+.SideBarMenu ul{
+    list-style: none;
+}
+.SideBarMenu ul li{
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    padding: 2px 10px 2px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.icon-side-menu{
+    padding-right: 10px;
+    color: white;
+}
+
+.SideBarMenu ul li:hover .icon-side-menu {
+   color: #FC5C04;
+}
+.SideBarMenu ul li:hover .side-links {
+    color: #FC5C04;
+ }
+.SideBarMenu ul li:hover{
+    background-color: white;
+}
+.side-links{
+    color:#ffffff;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+
+}
+.side-links:hover{
+    color:#FC5C04;
+    text-decoration: none;
+}
+.offcanvas-header button{
+    background-color: white;
+    border-radius: 50px;
+}
+
+.QuickInvest button{
+    background-color: #FC5C04;
+    border: 1px solid #FC5C04;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px 40px;
+}
+.QuickInvest button:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #FC5C04;
+    color: #FC5C04;
+    width: 100%;
+    padding: 10px 40px;
+}
+.Side_Sec_title{
+    color: #808080;
+    font-family: 'Titillium Web', sans-serif; 
+}
+.ProfileContainer{
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    cursor: pointer;
+}
+.ProfileContainer:hover{
+    scale: 1.05;
+}
+.ProfileContainer h4{
+    font-size: 16px;
+    padding-left: 15px;
+}
+.ProfileContainer p{
+    font-size: 12px;
+    padding-left: 15px;
+}
+.ProfileContainer .LogoutIcon i{
+    color: greenyellow;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.DashIcon{
+    font-size: 20px;
+    color: #FC5C04;
+    background-color: #fcfcfc;
+    padding: 5px 11px;
+    margin: 10px;
+    border: 1px solid #D3D3D3;
+    border-radius: 50px;
+}
+.DashNavLogo{
+    width: 100%;
+    padding-left: 10px;
+}
+.DashNavLogo img{
+    width: 150px;
+}
+.buttonMarkAll{
+    background-color: #FC5C04;
+    border: 1px solid #FC5C04;
+    border-radius: 3px;
+    width: 100%;
+    padding: 12px;
+}
+
+  

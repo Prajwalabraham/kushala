@@ -1,0 +1,112 @@
+.contentAPPdemo{
+    padding: 25% 20% 25% 0px;
+}
+.contentAPPdemo h4{
+    font-size: 16px;
+    color:#fc5c04;
+    line-height: 1.6;
+}
+.contentAPPdemo h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    line-height: 1.6
+}
+.contentAPPdemo p{
+    font-size: 14px;
+    line-height: 1.8;
+}
+.DownloadButtonsgrp img{
+    width: 150px;
+    margin-right: 10px;
+}
+
+.contentAPPdemo2{
+    padding: 25% 0% 25% 10%;
+}
+.contentAPPdemo2 h4{
+    font-size: 16px;
+    color:#fc5c04;
+    line-height: 1.6;
+}
+.contentAPPdemo2 h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+    color:#ffffff;
+}
+.contentAPPdemo2 p{
+    font-size: 14px;
+    line-height: 1.8;
+    color: #8B8E8E;
+}
+.contentAPPdemo2 .DownloadButtonsgrp img{
+    width: 150px;
+    margin-right: 10px;
+    border: 1px solid #8B8E8E;
+    border-radius: 5px;
+
+}
+.TrustCTA{
+    padding: 50px 0px;
+}
+.TrustCTA img{
+    width: 100px;
+    padding-bottom: 10px;
+}
+.TrustCTA h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.TrustCTA p{
+   font-size: 14px;
+   line-height: 1.8;
+   color:#8B8E8E;
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+    .contentAPPdemo{
+        padding: 20% 0% 20% 0px;
+    }
+    .contentAPPdemo2{
+        padding: 20% 5% 20% 5%;
+    }
+    .DownloadButtonsgrp img{
+        width: 120px;
+        margin-right: 10px;
+    }
+    .contentAPPdemo2 .DownloadButtonsgrp img{
+        width: 120px;
+    }    
+    .contentAPPdemo h2{
+        font-size: 26px;
+    }
+    .contentAPPdemo2 h2{
+        font-size: 26px;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    .contentAPPdemo{
+        padding: 10% 5%;
+    } 
+    .contentAPPdemo h4{
+        font-size: 14px;
+    }
+    .contentAPPdemo h2{
+        line-height: 1.4;
+    }
+    .contentAPPdemo2{
+        padding: 10% 5%;
+    } 
+    .contentAPPdemo2 h4{
+        font-size: 14px;
+    }
+    .contentAPPdemo2 h2{
+        line-height: 1.4;
+    }
+}

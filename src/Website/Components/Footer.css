@@ -1,0 +1,61 @@
+.WebFooter{
+    background-color: black;
+}
+.FtLogo{
+    width: 150px;
+}
+.FtBtn{
+    width: 150px;
+    margin-top: 20px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+}
+.Ft-IconSet .Ft-Icon{
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 20px 20px 20px 0px;
+}
+.Ft-IconSet .Ft-Icon:hover{
+    color: #FC5C04;
+}
+.WebFooter h4{
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+    padding-top: 20px;
+}
+.Ft-Link-List a{
+    color: #8B8E8E;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 2;
+}
+.Ft-Link-List a:hover{
+    color: #FC5C04;
+}
+.CP-txt{
+    color: #8B8E8E;
+    font-size: 14px;
+}
+
+@media screen and (max-width:800px) {
+    .WebFooter{
+        padding: 50px;
+        text-align: center;
+    } 
+    .WebFooter h4{
+        font-size: 18px;
+    }
+    .Ft-IconSet .Ft-Icon{
+        padding: 20px 10px;
+    }
+    .FtLogo{
+        width: 150px;
+    }
+    .Ft-IconSet .Ft-Icon{
+        color: whitesmoke;
+        font-size: 22px;
+        padding: 20px 10px 10px 10px;
+    }
+}

@@ -1,0 +1,36 @@
+POST http://localhost:4000/app/signup
+Content-Type: application/json
+
+{
+"Annualincome":"64165163",
+"Citizenship":"c",
+"CountryOfBirth":"sbbb",
+"Countryselected":"India",
+"EmploymentStatus":"Employed",
+"FundingSource":"Savings",
+"KycDocFile":"",
+"KycDocFile2":"",
+"KycDocName":"",
+"KycDocName2":"",
+"KycDocNumber":"",
+"KycDocNumber2":"",
+"KycDocType":"",
+"TaxIDNumber":"5+526262",
+"TaxIDType": "PAN",
+"TrustedEmail": "dsfsdfsd",
+"TrustedFirstName": "sdfsfd",
+"TrustedLastName": "dsfdsf",
+"city": "Bangalore North",
+"country": "sdfs",
+"currency": "",
+"dob": "2222-02-21",
+"email": "prajwalabrahamdsf.21@gmail.com",
+"firstname": "Prajwalfdfds",
+"lastname": "Vfsd",
+"middlename": "",
+"phonenumber": "9901561850fsd",
+"postalcode": "560032",
+"state": "Karnataka",
+"streetaddress": "29, 1st Main, R. T. Nagar, MSHC Layout, Anandanagar, Hebbal, Bengaluru, Karnataka, India, 29",
+"taxresidence": "bjhbjh"
+}

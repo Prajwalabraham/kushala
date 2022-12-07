@@ -1,0 +1,61 @@
+.AppDownloadCTA{
+    margin-top: 50px;
+    width: 80%;
+    padding: 40px;
+    background-image: url("../Images/CTA_bg.png");
+    background-size: cover;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+.AppDownloadCTA h3{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.AppDownloadCTA p{
+    color: #D2CFD2;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.DownloadAppButton{
+    margin: 0px 10px 0px 0px;  
+    border: 1px solid rgb(144, 144, 144);  
+    border-radius: 5px;
+    width: 150px;
+}
+.AppUse img{
+   width: 100%;
+   margin-top: -100px ;
+   margin-bottom: -110px ;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .AppUse img{
+        width: 100%;
+        margin-top: 0px!important;
+        margin-bottom: 0px!important ;
+     }
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .AppDownloadCTA{
+        margin-top: 0px;
+        padding: 20px;
+    }
+    .DownloadAppButton{
+        width: 100px;
+    }
+    .AppDownloadCTA h3{
+        font-size: 22px;
+    }
+    .AppDownloadCTA p{
+        font-size: 14px;
+    }
+    .AppUse img{
+        margin-top: 20px!important ;
+     }
+}

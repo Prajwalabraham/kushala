@@ -1,0 +1,102 @@
+.HeroSection{
+    background-color: black!important;
+    color:white;
+    padding: 70px 50px 100px 50px;
+    
+}
+.HeroSection .herocol1{
+    padding-top: 60px;
+    
+}
+
+.HeroH2{
+    font-size:16px;
+    color:#FC5C04;
+  
+}
+.HeroH1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+}
+.herop{
+    font-size: 14px;
+    color:#D9D9D9;
+    line-height: 1.6;
+}
+
+.ButtonDark{
+   color: white; 
+   background-color: #FC5C04;
+   padding: 10px 40px;
+   border-radius: 5px;
+}
+
+
+.ButtonWhite{
+    color: #FC5C04;
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.anim_img{
+    margin: -100px 0px -40px 0px;
+}
+.anim_img img{
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1180px) {
+    .anim_img{
+        margin: -0px;
+    }
+    .anim_img img{
+        width: 100%;
+    }
+    .HeroH1{
+        line-height: 1.2;
+    }
+    .ButtonWhite, .ButtonDark{
+        padding: 10px 20PX;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 800px) {
+    .HeroSection .herocol1{
+        padding: 10px 10px;
+        
+    }
+    .HeroSection{
+        background-color: black!important;
+        color:white;
+        padding: 40px 20px;
+    }
+
+    .HeroH2{
+        font-size:14px;      
+    }
+
+    .HeroH1{
+        font-size: 30px;
+        letter-spacing: 0.5px;
+        line-height: 1.4;
+    }
+    .herop{
+        font-size: 14px;
+        color:#D9D9D9;
+        line-height: 1.8;
+    }
+    .ButtonWhite{
+        padding: 10px 20px;
+    }
+    .ButtonDark{
+        padding: 10px 20px;
+
+     }
+   }

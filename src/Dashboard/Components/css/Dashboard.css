@@ -1,0 +1,454 @@
+.welcometxt h4{
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif; 
+}
+.welcometxt span{
+    color: #FC5C04; 
+}
+.PortfolioNumbers{
+    background-color: #F5F5F8;
+    margin: 0px 0px;
+    padding: 20px;
+    border-radius: 5px;
+    border:10px solid #ffffff
+}
+
+.PortfolioNumbers h5{
+    font-family: 'Titillium Web', sans-serif; 
+    font-weight: 600;
+    line-height: 1.6;
+}
+.PortfolioNumbers h6{
+    line-height: 1.6;
+}
+.PortfolioNumbers p{
+    font-size: 14px;
+}
+.Listlinkleft{
+    float: right;
+    margin-top: -35px;
+}
+.StocksCryptoList{
+    background-color: #F5F5F8;
+    margin: 0px 0px;
+    padding: 20px;
+    border-radius: 5px;
+    border:10px solid #ffffff
+}
+.StocksCryptoList h6{
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif; 
+    font-size: 18px;
+}
+.StocksCryptoList a{
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif; 
+    font-size: 16px;
+    color: #FC5C04;
+    text-decoration: none;
+}
+.StocksTable th{
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+}
+.StocksTable img{
+    width: 50px;
+}
+.StocksTable .Stockshortname{
+    font-family: 'Titillium Web', sans-serif; 
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.StocksTable .Stockname{
+    font-size: 12px;
+}
+.StocksTable  .stockdetail{
+    padding-top: 15px;
+    line-height: 1.4;
+}
+.ActionCards{
+    background-color: #F5F5F8;
+    padding: 20px 10px;
+    border-radius: 5px;
+    border:10px solid #ffffff
+}
+.ActionCards h5{
+    font-family: 'Titillium Web', sans-serif; 
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.ActionCard{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 10px solid #F5F5F8;
+}
+.ActionCard .ActionIcon{
+    font-size: 30px;
+    line-height: 1.6;
+}
+.ActionCard h6{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.ActionCard p{
+    font-size: 14px;
+    line-height: 1.6;
+    color: #808080;
+}
+.ActionCard .ActionButton{
+    border:1px solid #FC5C04;
+    background-color: #FC5C04;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.ActionCard .ActionButton:hover{
+    border:1px solid #FC5C04;
+    background-color: #FFFFFF;
+    color: #FC5C04;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.PopularListing h5{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+.PopularListing a{
+    font-family: 'Titillium Web', sans-serif;
+    float: right;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FC5C04;
+    text-decoration: none;
+    margin-top: -30px;
+}
+.SlideStockCard .CardT{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 1;
+}
+.SlideStockCard .CardT2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+.SlideStockCard .CardP{
+    line-height: 1;
+    font-size: 16px;
+}
+.SlideStockCard .CardR{
+    line-height: 1;
+    font-size: 14px;
+}
+.StocksDashTitle{
+    font-size: 22px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+.CardStock{
+    padding: 20px;
+    background-color: #F5F5F8;
+    border-radius: 5px;
+    border:10px solid #ffffff;
+}
+.CardStock img{
+    width: 50px;
+}
+.CardStock h5{
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    padding-top: 10px;
+}
+.CardStock .title{
+    font-size: 16px;
+    line-height: 1;
+}
+.CardStock .Price{
+    font-size: 14px;
+    line-height: 1;
+}
+.CardStock .Rate{
+    font-size: 14px;
+    line-height: 1;
+}
+.Menupopup i{
+ float: right;
+ font-size: 30px;
+ margin-top: -35px;
+}
+.WishlistTitle{
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+.Wishlist .StocksDetails{
+    padding: 20px;
+}
+.Wishlist .StocksDetails .Datavalue{
+    text-align: right;
+}
+.CryptoDecTitle{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+}
+.CryptoDectext{
+    font-size: 14px;
+    line-height: 1.6;
+}
+.cryptovaluelabel{
+    font-size: 14px;
+}
+.cryptovalue{
+    font-size: 14px;
+    text-align: right;
+}
+.titleExplore{    
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+.CryptoListTable{
+    background-color: #F5F5F8;
+    padding: 10px;
+    border-radius: 3px;
+}
+.portfoliopagetitle{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600; 
+}
+.UserCollectionTitle{    
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 600; 
+}
+.UserCollectionTable{
+    background-color: #F5F5F8;
+    border:10px solid #FFFFFF;
+    padding: 20px;
+}
+.UserCollectionTable .Stockimg{
+    width: 50px;
+}
+.UserCollectionTable .identitiy{
+    width: 70%;
+}
+.UserCollectionTable .trholdingrow{
+    background-color: white;
+    border-bottom: 10px solid #F5F5F8;
+} 
+.Recommended img{
+    width: 60px;
+}
+.Recommended p{
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+}
+.recoBox{
+    background-color: #F5F5F8;
+    padding-top: 10px;
+    border: 10px solid #FFFFFF;
+}
+.BankPageTitle{
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+}
+.buttonEditBankDetails{
+    width:150px;
+    float: right;
+    border-radius: 3px;
+    border: 1px solid #FC5C04;
+    background-color: #FC5C04;
+    margin-top: -5px;
+}
+.buttonEditBankDetails:hover {
+    border: 1px solid #FC5C04;
+    background-color: #FFFFFF;
+    color:#FC5C04;
+}
+.DetailsDisplay{
+    background-color: #F5F5F8;
+    padding: 20px;
+    border: 10px solid white;;
+}
+.BankDetails{
+    display: flex;
+}
+.BankDetails img{
+    width: 60px!important;
+    height: 60px!important;
+}
+.BankDetails .Banktitle{
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+.BankDetails .BankAccType{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.has-search .form-control {
+    /* padding-left: ; */
+    padding: 12px 12px 12px 3rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    font-size: 20px;
+    z-index: 2;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.divsearch{
+    padding: 5% 20%;
+    background-color: #FEAE82;
+    margin-top: 20px;
+    border: 10px solid white;
+
+}
+.divsearch h4{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 2;
+
+}
+.CTAdivided{
+    padding: 5%;
+    background-color: #F5F5F8;
+    margin-top: 10px;
+    border: 10px solid white;
+}
+.CTAdivided i{
+    font-size: 30px;
+    line-height: 2;
+}
+.CTAdivided h6{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.CTAdivided p{
+    font-size: 16px;
+}
+.CTAdivided .CTAdividedbutton{
+    padding: 5px 30px;
+    background-color: #FC5C04;
+    border: 1px solid #FC5C04;
+}
+.CTAdivided .CTAdividedbutton:hover{
+    background-color: #FFFFFF;
+    color: #FC5C04;
+}
+.FaqCard{
+    padding: 15px;
+    background-color: #F5F5F8;
+    border: 10px solid white;
+    border-radius: 5px;
+}
+.FaqCard i{
+    font-size: 30px;
+    line-height: 1.4;
+}
+.FaqCard h5{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    
+}
+.FaqCard p{
+    font-size: 14px
+}
+.FaqTitle{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.AllHelpLink{
+    text-decoration: none;
+    color: #FC5C04;
+}
+.FaqSubTitle{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .PortfolioNumbers h5{
+        font-size: 16px;
+    }
+    .PortfolioNumbers p{
+        font-size: 12px;
+    } 
+}
+
+
+
+@media screen and (max-width:800px) {
+    .StocksTable th{
+        font-size: 12px;
+    }
+    .StocksTable img{
+        width: 40px;
+    }
+    .BankPageTitle{
+        font-size: 18px;
+    }
+    .buttonEditBankDetails{
+        padding: 2px;
+        width: 120px;
+        margin-top: -5px;
+    }
+    .divsearch h4{
+        font-size: 20px;
+    
+    }
+    .divsearch{
+        padding: 5% 10%;
+    }
+    .CTAdivided i{
+        font-size: 28px;
+        line-height: 2;
+    }
+    .CTAdivided h6{
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Titillium Web', sans-serif;
+    
+    }
+    .CTAdivided p{
+        font-size: 14px;
+    }
+    .FaqTitle{
+        font-size: 16px;
+    }
+    .AllHelpLink{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,60 @@
+.nav-tabs .nav-link {
+    color: #000000!important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffffff!important;
+    background-color: #FC5C04;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+.HeroTitle h2{
+    padding-top: 40px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 1.8;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.TabContainer{
+    background-color: white;
+     border-radius:5px;
+     padding:20px 20px;
+     margin-bottom: 50px;
+}
+.TabContent h4{
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+.TabContent p{
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+@media screen and (max-width:1000px) {
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        padding: 5px 20px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .nav-tabs .nav-link{
+        font-size: 14px;
+        padding: 5px 8px!important;
+
+        
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        padding: 5px 8px!important;
+        font-size: 14px;
+    }
+    .TabContainer{
+        width: 95%;
+        border-radius:5px;
+        padding:10px 10px;
+    }
+    .HeroTitle h2{
+        padding-top: 20px;
+    }
+}

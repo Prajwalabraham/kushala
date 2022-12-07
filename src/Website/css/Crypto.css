@@ -1,0 +1,157 @@
+.SectionFocusedFeatures{
+    padding-top: 80px ;
+    text-align: center;
+}
+.SectionFocusedFeatures h3{
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+.SectionFocusedFeatures p{
+    font-size: 14px;
+    line-height: 1.8;
+    padding: 0% 30%;
+}
+.SubFetureicon{
+    font-size: 50px;
+    line-height: 1.8;
+}
+.SubFeatureCard h4{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+.SubFeatureCard p{
+    font-size: 14px;
+    line-height: 1.8;
+    padding: 0px 50px;
+}
+.DirectoryDIV{
+    padding-top: 50px;
+}
+.DirectoryDIV h3{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.sb-example-1{
+    padding: 20px 300px;
+}
+.sb-example-1 .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  .sb-example-1 .searchTerm {
+    width: 100%;
+    border: 1px solid #FC5C04;
+    border-right: none;
+    padding: 5px 10px;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+    color: #a0a0a0;
+  }
+  .sb-example-1 .searchTerm:focus{
+    color: #FC5C04;
+  }
+  .sb-example-1 .searchButton {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FC5C04;
+    background: #FC5C04;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .DirTableDIV{
+    padding: 0px 20%;
+  }
+  .DirTable .assetname{
+    font-size: 16px;
+    text-align: left;
+  }
+  .assetname span{
+    font-size: 14px;
+    color: #8B8E8E;
+  }
+
+  .DirTable .info{
+    line-height: 1.8;
+  }
+  .DirTable th{
+    font-weight: 500;
+    color: #9d9d9c ;
+  }
+  .DirTable .infoLink a{
+    color: #FC5C04 ;
+    text-decoration: none;
+  }
+  .DirTable img{
+    width: 50px;
+  }
+  .DirTableDIV{
+    padding-bottom: 50px;
+    }
+.DirTable th{
+    font-size: 14px;
+ }  
+
+
+
+
+
+
+
+  
+  @media screen and (max-width:1000px) {
+    .SectionFocusedFeatures p{
+        padding: 0% 20%;
+    }
+    .SubFeatureCard p{
+        padding: 0px 30px;
+    }
+    .DirTableDIV{
+        padding: 0px 10%;
+      }
+      .sb-example-1{
+        padding: 20px 100px;
+    }
+    .DirTableDIV{
+        padding-bottom: 50px;
+    }
+  }
+
+
+
+
+  @media screen and (max-width:800px) {
+    .DirTableDIV{
+        padding: 0px 2%;
+      }
+    .sb-example-1{
+        padding: 20px 20px;
+    }
+    .SectionFocusedFeatures{
+        padding-top: 50px; 
+    }
+    .SectionFocusedFeatures p{
+        padding: 0% 10%; 
+    }
+    .DirectoryDIV{
+        padding-top: 20px;
+    }
+    .DirTableDIV{
+        padding-bottom: 50px;
+    }
+    .DirTable img{
+        width: 30px;
+    }
+    .DirTable th{
+       font-size: 12px;
+    }
+    .DirTable .info, .infoLink, .assetname{
+        font-size: 14px;
+     }
+  }
